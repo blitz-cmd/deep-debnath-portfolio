@@ -1,0 +1,69 @@
+{
+    "name": "Deep Debnath",
+    "profilePictureUrl": "images/pictures/deep.jpg",
+
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a class='light' href='https://github.com/blitz-cmd'>Deep Debnath</a></strong>",
+            "role": "DevOps Engineer"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "Mumbai, 400614",
+            "valueShort": "Mumbai, 400614",
+            "faIcon": "fa-solid fa-location-dot",
+            "href": "https://maps.app.goo.gl/EyJQVrJv56zpthLP6"
+        },
+
+        "email": {
+            "id": "email",
+            "value": "deepdebnath613@gmail.com",
+            "valueShort": "deepdebnath613@gmail.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:deepdebnath613@gmail.com"
+        },
+
+        "facebook": {
+            "id": "facebook",
+            "value": "Deep Debnath",
+            "valueShort": "Deep Debnath",
+            "faIcon": "fa-brands fa-facebook",
+            "href": "https://facebook.com"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "Deep Debnath",
+            "valueShort": "Deep Debnath",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/blitz-cmd"
+        },
+
+        "instagram": {
+            "id": "instagram",
+            "value": "Deep Debnath",
+            "valueShort": "Deep Debnath",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://instagram.com"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "Deep Debnath",
+            "valueShort": "Deep Debnath",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://www.linkedin.com/in/deep-debnath-504/"
+        },
+
+        "phone": {
+            "id": "phone",
+            "value": "+91 9967926830",
+            "valueShort": "+91 9967926830",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:09967926830"
+        }
+    }
+}

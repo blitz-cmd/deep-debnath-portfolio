@@ -1,0 +1,22 @@
+{
+    "locales": {
+        "en": {
+            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcomeShort": "Welcome!",
+            "bio": "With over 2 years of experience in building, deploying, and automating cloud infrastructure on AWS. Expert in utilizing CDK, Terraform, Jenkins, and Kubernetes to streamline deployments, enhance performance, and ensure high availability. Let's collaborate and craft something extraordinary together."
+        }
+    },
+
+    "items": {
+        "socialCircles": [
+            "@link{profile.contact.linkedin}",
+            "@link{profile.contact.github}"
+        ],
+
+        "contactListItems": [
+            "@link{profile.contact.address}",
+            "@link{profile.contact.email}",
+            "@link{profile.contact.phone}"
+        ]
+    }
+}

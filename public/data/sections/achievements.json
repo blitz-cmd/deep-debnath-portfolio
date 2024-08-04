@@ -1,0 +1,97 @@
+{
+    "locales": {
+        "en": {
+            "title": "Career <span class='text-primary'>Achievements</span>",
+            "description": "My journey as a Cloud Engineer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "awards",
+            "faIcon": "fa-solid fa-trophy",
+            "locales": {
+                "en": {"title": "Awards", "buttonLabel": "More Info"}
+            }
+        },
+
+        {
+            "id": "certifications",
+            "faIcon": "fa-solid fa-award",
+            "locales": {
+                "en": {"title": "Certifications", "buttonLabel": "View Certification"}
+            }
+        }
+    ],
+
+    "items": {
+        "awards": [
+            {
+                "id": "graduation_project",
+                "place": "@link{places.tcsaward}",
+                "date": "2023/04",
+                "href": "https://drive.google.com/file/d/1aL6ioyDzt24vA_J2a1jnXq7lWMngfgyG/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "Appreciation Certificate - Tata Consultancy Services (TCS)",
+                        "description": "Acknowledged exemplary collaboration and innovative problem-solving within the project team."
+                    }
+                }
+            },
+
+            {
+                "id": "alumni_hackaton",
+                "place": "@link{places.tcsaward}",
+                "date": "2023/11",
+                "href": "https://drive.google.com/file/d/1vP423BsilA-BNfgHNaGPmYC4dN2ysHxt/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "On the Spot (Team) Award - Tata Consultancy Services (TCS)",
+                        "description": "Award for delivering high-impact cloud solutions leveraging AWS CDK and Python."
+                    }
+                }
+            },
+
+            {
+                "id": "adobe_jam",
+                "place": "@link{places.tcsaward}",
+                "date": "2024/04",
+                "href": "https://drive.google.com/file/d/1y6xkmZGNXCx3irMEG9MKRClz0AAH0Vp4/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "Applause Award - Tata Consultancy Services (TCS)",
+                        "description": "Recognized for resolving a critical technical challenge related to AWS by implementing an innovative solution."
+                    }
+                }
+            }
+        ],
+
+        "certifications": [
+            {
+                "id": "google_cert",
+                "place": "@link{places.certificate}",
+                "date": "2022/12",
+                "href": "https://drive.google.com/file/d/1INZYAdPOgZbheq1tM4xMKf6BWCF9jvV_/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "AWS Certified Cloud Practitioner (CLF-C02)",
+                        "description": "Certified by AWS in Cloud Computing; demonstrated expertise in AWS services."
+                    }
+                }
+            },
+
+            {
+                "id": "ui_nanodegree",
+                "place": "@link{places.certificate}",
+                "date": "2023/12",
+                "href": "https://drive.google.com/file/d/12X1CRtVPrtec07mZsoyn5V7TPKuIhxMp/view?usp=sharing",
+                "locales": {
+                    "en": {
+                        "title": "AWS Certified Solutions Architect - Associate (SAA-C03)",
+                        "description": "Certified by AWS in Cloud Computing; demonstrated expertise in AWS services."
+                    }
+                }
+            }
+        ]
+    }
+}
