@@ -33,7 +33,7 @@ jobs:
             sudo yum install -y nodejs
             mkdir -p deepportfolio
             cd home           
-            sudo find . -maxdepth 1 -type d -not -name "ec2-user" -exec mv {} /home/ec2-user/deepportfolio \;
+            sudo mv * .
             cd /home/ec2-user/deepportfolio
             npm run build
             npm run dev
