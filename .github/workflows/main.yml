@@ -31,7 +31,7 @@ jobs:
           script: |
             sudo yum update -y
             sudo yum install -y nodejs
-            pwd
-            sudo mv * .
+            cd home
+            sudo mv * /home
             npm run build
             npm run dev
