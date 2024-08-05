@@ -33,3 +33,4 @@ jobs:
             sudo yum install -y nodejs
             pwd
             ls
+            npm run dev
