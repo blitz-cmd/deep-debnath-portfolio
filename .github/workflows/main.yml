@@ -22,9 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build Vue app
-        run: npm run build
-
       - name: Deploy to EC2 on Kubernetes
         uses: appleboy/ssh-action@master
         with:
