@@ -31,7 +31,6 @@ jobs:
           script: |
             sudo yum update -y
             sudo yum install -y nodejs
-            cd /home/ec2-user/
             sudo mv * .
             npm run build
             npm run dev
