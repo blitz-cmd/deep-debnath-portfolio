@@ -51,34 +51,34 @@
         "abilities": [
             {
                 "imageIconUrl": null,
-                "faIcon": "fas fa-mobile-alt",
+                "faIcon": "fa-solid fa-cart-flatbed",
                 "value": null,
                 "locales": {
                     "en": {
-                        "title": "Responsive Layouts",
-                        "description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience."
+                        "title": "Migration",
+                        "description": "Leveraged automation tools and scripting to seamlessly transition applications and infrastructure to new environments."
                     }
                 }
             },
             {
                 "imageIconUrl": null,
-                "faIcon": "fas fa-paint-roller",
+                "faIcon": "fas fa-timeline",
                 "value": null,
                 "locales": {
                     "en": {
-                        "title": "Design Principles",
-                        "description": "Masterful at creating captivating designs, blending color theory, typography, layout, and balance for effective messaging."
+                        "title": "Deployment",
+                        "description": "Implemented robust CI/CD pipelines to ensure efficient and reliable software delivery to various platforms."
                     }
                 }
             },
             {
                 "imageIconUrl": null,
-                "faIcon": "fas fa-vector-square",
+                "faIcon": "fa-solid fa-up-right-and-down-left-from-center",
                 "value": null,
                 "locales": {
                     "en": {
-                        "title": "Wireframing",
-                        "description": "Skilled in creating detailed wireframes to visualize and plan user interfaces, effectively laying the foundation for intuitive design."
+                        "title": "Scalability",
+                        "description": "Designed and optimized systems to handle increased workloads and user demands through infrastructure scaling and performance tuning."
                     }
                 }
             }
