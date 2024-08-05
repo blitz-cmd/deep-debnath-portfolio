@@ -31,8 +31,8 @@ jobs:
           script: |
             sudo yum update -y
             sudo yum install -y nodejs
-            mkdir -p deep
-            cd deep
-            sudo mv * .
+            mkdir -p deepportfolio            
+            sudo mv * deepportfolio
+            cd deepportfolio
             npm run build
             npm run dev
