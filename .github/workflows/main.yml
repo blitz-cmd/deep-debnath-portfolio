@@ -22,6 +22,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Deploy to Server 1
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
+          REMOTE_HOST: ${{ secrets.EC2_HOST }}
+          REMOTE_USER: ${{ secrets.EC2_USERNAME }}
+          TARGET: ${{ secrets.TARGET_DIR }}
+      
       - name: Deploy to EC2 on Kubernetes
         uses: appleboy/ssh-action@master
         with:
@@ -29,6 +37,8 @@ jobs:
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
+            mkdir -p /home/ec2-user/portfolio
+            rsync -avz --delete ./ /home/ec2-user/portfolio/
             sudo yum update -y
             sudo yum install -y nodejs
             mkdir -p deepportfolio
