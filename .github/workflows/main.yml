@@ -23,27 +23,13 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Deploy to Server 1
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          REMOTE_HOST: ${{ secrets.EC2_HOST }}
-          REMOTE_USER: ${{ secrets.EC2_USERNAME }}
-          TARGET: ${{ secrets.TARGET_DIR }}
-      
-      - name: Deploy to EC2 on Kubernetes
-        uses: appleboy/ssh-action@master
+        uses: burnett01/rsync-deployments@5.1
         with:
-          host: ${{ secrets.EC2_HOST }}
-          username: ${{ secrets.EC2_USERNAME }}
-          key: ${{ secrets.EC2_SSH_KEY }}
-          script: |
-            mkdir -p /home/ec2-user/portfolio
-            rsync -avz --delete ./ /home/ec2-user/portfolio/
-            sudo yum update -y
-            sudo yum install -y nodejs
-            mkdir -p deepportfolio
-            cd home           
-            sudo mv * .
-            cd /home/ec2-user/deepportfolio
-            npm run build
-            npm run dev
+          switches: -avzr --delete
+          path: ./*
+          remote_path: /home/ec2-user/
+          remote_host: "${{ secrets.EC2_HOST }}"
+          remote_user: "${{ secrets.EC2_USERNAME }}"
+          remote_key: "${{ secrets.EC2_SSH_KEY }}"
+      
+      
