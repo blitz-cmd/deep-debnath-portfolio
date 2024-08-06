@@ -42,3 +42,4 @@ jobs:
             mkdir -p /home/ec2-user/portfolio
             cd /home/ec2-user/
             sudo find . -type f -not -path "./portfolio/*" -exec mv {} /portfolio \;
+            sudo find . -mindepth 1 -maxdepth 1 -not -name "portfolio" -exec mv {} /home/ec2-user/portfolio \;
