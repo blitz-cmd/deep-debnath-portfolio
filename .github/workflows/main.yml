@@ -41,4 +41,4 @@ jobs:
           script: |
             mkdir -p /home/ec2-user/portfolio
             cd /home/ec2-user/
-            find . -type f -not -path "./portfolio/*" -exec mv {} /portfolio \;
+            sudo find . -type f -not -path "./portfolio/*" -exec mv {} /portfolio \;
