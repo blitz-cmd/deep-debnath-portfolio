@@ -32,4 +32,13 @@ jobs:
           remote_user: "${{ secrets.EC2_USERNAME }}"
           remote_key: "${{ secrets.EC2_SSH_KEY }}"
       
-      
+      - name: Deploy to EC2 on Kubernetes
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            mkdir -p /home/ec2-user/portfolio
+            cd /home/ec2-user/
+            find . -type f -not -path "./portfolio/*" -exec mv {} /portfolio \;
