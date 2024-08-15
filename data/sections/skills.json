@@ -90,8 +90,7 @@
                 "value": 100,
                 "locales": {
                     "en": {
-                        "title": "AWS",
-                        "description": "Experience Time: 2 years"
+                        "title": "AWS"
                     }
                 }
             },
@@ -101,52 +100,7 @@
                 "value": 70,
                 "locales": {
                     "en": {
-                        "title": "Docker",
-                        "description": "Experience time: 1 year"
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fab fa-python",
-                "value": 90,
-                "locales": {
-                    "en": {
-                        "title": "Python",
-                        "description": "Experience Time: 2 years"
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fab fa-java",
-                "value": 90,
-                "locales": {
-                    "en": {
-                        "title": "Java",
-                        "description": "Experience Time: 2 years"
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fab fa-aws",
-                "value": 100,
-                "locales": {
-                    "en": {
-                        "title": "AWS CDK",
-                        "description": "Experience Time: 2 years"
-                    }
-                }
-            },
-            {
-                "imageIconUrl": null,
-                "faIcon": "fa fa-cloud",
-                "value": 70,
-                "locales": {
-                    "en": {
-                        "title": "Terraform",
-                        "description": "Experience Time: 1 years"
+                        "title": "Docker"
                     }
                 }
             },
@@ -156,8 +110,47 @@
                 "value": 70,
                 "locales": {
                     "en": {
-                        "title": "Kubernetes",
-                        "description": "Experience time: 1 year"
+                        "title": "Kubernetes"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-python",
+                "value": 90,
+                "locales": {
+                    "en": {
+                        "title": "Python"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-java",
+                "value": 90,
+                "locales": {
+                    "en": {
+                        "title": "Java"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-aws",
+                "value": 100,
+                "locales": {
+                    "en": {
+                        "title": "AWS CDK"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa fa-cloud",
+                "value": 70,
+                "locales": {
+                    "en": {
+                        "title": "Terraform"
                     }
                 }
             },
@@ -167,8 +160,7 @@
                 "value": 90,
                 "locales": {
                     "en": {
-                        "title": "CI/CD",
-                        "description": "Experience time: 2 year"
+                        "title": "CI/CD"
                     }
                 }
             },
@@ -178,8 +170,7 @@
                 "value": 80,
                 "locales": {
                     "en": {
-                        "title": "Linux",
-                        "description": "Experience time: 1 year"
+                        "title": "Linux"
                     }
                 }
             },
@@ -189,8 +180,7 @@
                 "value": 85,
                 "locales": {
                     "en": {
-                        "title": "Scripting",
-                        "description": "Experience time: 2 year"
+                        "title": "Scripting"
                     }
                 }
             },
@@ -200,8 +190,7 @@
                 "value": 85,
                 "locales": {
                     "en": {
-                        "title": "Monitoring and Observability",
-                        "description": "Experience time: 2 year"
+                        "title": "Monitoring and Observability"
                     }
                 }
             }
