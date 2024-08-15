@@ -12,10 +12,10 @@
     "contact": {
         "address": {
             "id": "address",
-            "value": "Mumbai, 400614",
+            "value": "Mumbai, India",
             "valueShort": "Mumbai, 400614",
             "faIcon": "fa-solid fa-location-dot",
-            "href": "https://maps.app.goo.gl/EyJQVrJv56zpthLP6"
+            "href": null
         },
 
         "email": {

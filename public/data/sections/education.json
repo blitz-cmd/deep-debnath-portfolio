@@ -16,7 +16,7 @@
             "locales": {
                 "en": {
                     "title": "H.S.C. in Computer Science",
-                    "description": "dummy2"
+                    "description": "HSC from the Central Board of Secondary Education (CBSE) serves as a pivotal stage in a student's academic journey. It offers a comprehensive curriculum across various subjects, laying a strong foundation for higher education and professional pursuits."
                 }
             }
         },
@@ -29,7 +29,7 @@
             "locales": {
                 "en": {
                     "title": "Bachelor's in Information Technology",
-                    "description": "dummy1"
+                    "description": "Bachelor of Engineering in Information Technology (BE IT) from Mumbai University provides a strong foundation in computer science and its applications. Graduates emerge with a comprehensive understanding of software development, networking, database management, and other IT-related concepts."
                 }
             }
         }

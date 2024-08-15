@@ -42,5 +42,6 @@ jobs:
             cd /home/ec2-user/portfolio/
             sudo yum update -y
             sudo yum install -y nodejs
+            npm install
             npm run build
             npm run dev

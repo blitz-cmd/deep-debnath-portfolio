@@ -1,5 +1,5 @@
 /**
- * Created by Ryan Balieiro on 08.23.2023
+ * Created by Deep Debnath on 08.23.2023
  * App's entry point
  */
 import './scss/style.scss'
