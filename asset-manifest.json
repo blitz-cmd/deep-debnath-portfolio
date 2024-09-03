@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/deep-debnath-portfolio/static/css/main.7facdc5d.css",
+    "main.js": "/deep-debnath-portfolio/static/js/main.1f13ee3e.js",
+    "static/css/487.bb36206c.chunk.css": "/deep-debnath-portfolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.fe93d6d1.chunk.js": "/deep-debnath-portfolio/static/js/487.fe93d6d1.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/deep-debnath-portfolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.dd1697ba.chunk.js": "/deep-debnath-portfolio/static/js/990.dd1697ba.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/deep-debnath-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/tcs.png": "/deep-debnath-portfolio/static/media/tcs.3b11b059975ab0ec786c.png",
+    "static/media/Agustina.woff": "/deep-debnath-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/deep-debnath-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/app.png": "/deep-debnath-portfolio/static/media/app.27dd5993ef92d5c00c4e.png",
+    "static/media/SAA-C03.png": "/deep-debnath-portfolio/static/media/SAA-C03.c28c518452880a5fdfe4.png",
+    "static/media/contactMailDark.svg": "/deep-debnath-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/deep-debnath-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/portfolio.png": "/deep-debnath-portfolio/static/media/portfolio.bc7d84785c277bba5df0.png",
+    "static/media/skill.svg": "/deep-debnath-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/deep-debnath-portfolio/index.html",
+    "static/media/talksCardBack.svg": "/deep-debnath-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.7facdc5d.css.map": "/deep-debnath-portfolio/static/css/main.7facdc5d.css.map",
+    "main.1f13ee3e.js.map": "/deep-debnath-portfolio/static/js/main.1f13ee3e.js.map",
+    "487.bb36206c.chunk.css.map": "/deep-debnath-portfolio/static/css/487.bb36206c.chunk.css.map",
+    "487.fe93d6d1.chunk.js.map": "/deep-debnath-portfolio/static/js/487.fe93d6d1.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/deep-debnath-portfolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.dd1697ba.chunk.js.map": "/deep-debnath-portfolio/static/js/990.dd1697ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7facdc5d.css",
+    "static/js/main.1f13ee3e.js"
+  ]
+}
